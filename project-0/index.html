@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,200&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Entoni Beluli</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="topbar container">
+        <a href="index.html"><img src="icon.png" class="icon" alt="ikona" /></a>
+        <div>
+          <nav>
+            <div class="navbar-menu" id="navbarMenu">
+              <ion-icon
+                class="hide-menu"
+                onclick="hideMenu()"
+                name="close-outline"
+              ></ion-icon>
+              <ul>
+                <li><a href="">About Me</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+            <ion-icon
+              class="open-menu"
+              onclick="openMenu()"
+              name="menu-outline"
+            ></ion-icon>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="main-container">
+      <main class="main">
+        <section class="host-view">
+          <div class="host-text">
+            <h1>Welcome Human!</h1>
+            <p>
+              Hope you like it in here. A prototypical home still under
+              construction. Bare with me.<br />
+              The <strong>HTML,CSS</strong> and
+              <strong>Javascript</strong> engineer is on the way...
+            </p>
+            <button class="host-button">Show me more</button>
+          </div>
+        </section>
+        <section class="sec-section">
+          <div class="container">
+            <h1 style="text-align: center; color: black; margin-top: -0.5rem">
+              Nice to meet you!
+            </h1>
+            <hr />
+            <div class="frame">
+              <img src="profile-pic.png" class="profile-pic" />
+              <div class="intro-text" style="color: #fff">
+                <h1>Benvenuto, I'm Entoni!</h1>
+                <p><strong>An upcoming web developer</strong></p>
+                <p>currently training from home</p>
+                <h2>Experience:</h2>
+                <p>
+                  My programming background is not professional but soon it will
+                  be...
+                </p>
+                <h2>Qualifications:</h2>
+                <a
+                  style="text-decoration: underline; color: #fff"
+                  href="https://fshn.edu.al/Departments/departamenti-i-informatikes/Programmes/informatike-bsc"
+                  >Computer Science Bachelore Degree</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="third-section">
+          <div class="container">
+            <h1
+              style="
+                color: black;
+                text-align: center;
+                margin-top: -2.5rem;
+                padding-bottom: 2rem;
+              "
+            >
+              Articles
+              <hr />
+            </h1>
+            <div class="cards-container">
+              <div class="card">
+                <div class="blog-icon">
+                  <img src="html1.png" />
+                </div>
+                <div class="card-content">
+                  <h3>
+                    Take a look at HTML
+                    <hr style="color: #fff" />
+                  </h3>
+                  <p style="text-align: center; color: #fff">
+                    HTML (HyperText Markup Language) is the standard language
+                    that is used for creating webpages and web applications.
+                    Every time you access a website, a server sends an HTML file
+                    to your computer and your browser interprets and displays
+                    the information included in that file. All the information
+                    you are reading now is simply data that has been stored in
+                    an HTML file and sent to your browser.
+                  </p>
+                </div>
+                <a class="more"></a>
+              </div>
+              <div class="card">
+                <div class="blog-icon">
+                  <img src="css.png" />
+                </div>
+                <div class="card-content">
+                  <h3>
+                    Speaking about look...CSS
+                    <hr style="color: #fff" />
+                  </h3>
+                  <p style="text-align: center; color: #fff">
+                    CSS (Cascading Style Sheets) allows you to create
+                    great-looking web pages, but how does it work under the
+                    hood? CSS can be used for very basic document text styling —
+                    for example changing the color and size of headings and
+                    links. It can be used to create layout — for example turning
+                    a single column of text into a layout with a main content
+                    area and a sidebar for related information. It can even be
+                    used for effects such as animation
+                  </p>
+                </div>
+                <a class="more"></a>
+              </div>
+              <div class="card">
+                <div class="blog-icon">
+                  <img src="js.png" />
+                </div>
+                <div class="card-content">
+                  <h3>
+                    Brains of the web...Javascript
+                    <hr style="color: #fff" />
+                  </h3>
+                  <p style="text-align: center; color: #fff">
+                    JavaScript is a scripting or programming language that
+                    allows you to implement complex features on web pages every
+                    time a web page does more than just sit there and display
+                    static information for you to look at, displaying timely
+                    content updates, interactive maps, animated 2D/3D graphics,
+                    scrolling video jukeboxes, etc. It is the third layer of the
+                    layer cake of standard web technologies, two of which (HTML
+                    and CSS) we have covered in much more detail in other parts
+                    of the Learning Area.
+                  </p>
+                </div>
+                <a class="more"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="forth-section">
+          <div class="container">
+            <h1 style="color: black; text-align: center">
+              Get in touch
+              <hr />
+            </h1>
+            <form class="contact">
+              <h3>Name:</h3>
+              <input type="text" class="name" placeholder="Name" required />
+              <h3>Email:</h3>
+              <input type="email" class="email" placeholder="Email" required />
+              <h3>Message:</h3>
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="What to add or improve?"
+              ></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="container">
+            <h1 style="color: black; text-align: center; margin: 2rem 0 3rem">
+              Arrivederci
+            </h1>
+            <div
+              class="endbar"
+              style="
+                border-style: solid;
+                border-width: 1px 0 0;
+                border-color: rgba(0, 0, 0, 0.562);
+              "
+            >
+              <div class="social-media">
+                <ul>
+                  <li><ion-icon name="logo-instagram"></ion-icon></li>
+                  <li><ion-icon name="logo-linkedin"></ion-icon></li>
+                  <li><ion-icon name="logo-twitter"></ion-icon></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script>
+      let more = document.querySelectorAll(".more");
+      for (let i = 0; i < more.length; i++) {
+        more[i].addEventListener("click", function () {
+          more[i].parentNode.classList.toggle("active");
+        });
+      }
+    </script>
+    <script>
+      var navbarMenu = document.getElementById("navbarMenu");
+
+      function openMenu() {
+        navbarMenu.style.width = "100%";
+        navbarMenu.style.right = "0";
+      }
+      function hideMenu() {
+        navbarMenu.style.right = "-100%";
+      }
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
