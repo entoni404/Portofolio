@@ -89,11 +89,9 @@ h1 {
   transform: translate(-50%, -50%);
 }
 .sec-section {
-  /* padding-top: 2rem; */
   margin-top: 2rem;
   background-color: var(--white-primary);
   width: 100%;
-  /* min-height: 100vh; */
 }
 .frame {
   margin-top: 5rem;
@@ -102,7 +100,6 @@ h1 {
   justify-content: center;
   background-color: var(--frame-clr);
   min-width: 100%;
-  /* min-height: 70vh; */
 }
 .third-section {
   padding-top: 4rem;
@@ -112,7 +109,6 @@ h1 {
 .cards-container {
   position: relative;
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   max-width: 100%;
@@ -161,7 +157,6 @@ h1 {
   display: none;
 }
 .blog-icon {
-  /* max-height: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,16 +260,12 @@ h1 {
 }
 .profile-pic {
   margin: 1rem;
-  /* width: min(22rem, 13rem); */
   width: 40%;
   border: 0.063rem solid var(--dark-brown-clr);
 }
 .intro-text {
   text-align: center;
   width: 40%;
-  /* margin-right: 6rem;
-  margin-top: 1.5rem; */
-  /* padding-right: 5rem; */
 }
 .intro-text h1 {
   color: var(--white-primary);
@@ -282,8 +273,6 @@ h1 {
   font-size: 2.5rem;
 }
 .blog-icon img {
-  /* margin-left: 6rem;
-  max-height: 10rem; */
   cursor: pointer;
 }
 .card-content h3 {
@@ -301,7 +290,6 @@ h1 {
   border: 0.063rem solid var(--frame-clr);
   box-shadow: 0 0.1rem var(--frame-clr);
   display: flex;
-  /* padding: 0.438rem 0.938rem; */
   margin: 0 6.5rem 1rem;
   cursor: pointer;
   text-transform: uppercase;
@@ -378,7 +366,6 @@ nav ion-icon {
     position: absolute;
     background-color: #421b02;
     height: 102vh;
-    /* max-width: 100%; */
     top: 0;
     right: -14rem;
     z-index: 1;
